@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div class="container">
+
+      <section class="title">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </section>
+      
+  
+    </div>
+    <div class="container">
+      <section class="form">
+        <form action="" id="survey-form">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" title="you should Enter your first name" required>
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email" title="You should Enter your Email" required>
+          <label for="number" id="number-label">Number</label>
+          <input type="number" name="age" id="number" placeholder="Age" title="add your age" min="0" max="1000">
+          <label for="dropdown">Which option best describes your current role?</label>
+          <select name="dropdown" id="dropdown">
+            <option value="">Challenges</option>
+            <option value="">Projects</option>
+          </select>
+          <div class="radio">
+            <input type="radio" name="recommend" value="definitely"><label for="">Definitely</label>
+            <br>
+            <input type="radio" name="recommend" value="maybe"><label for="">Maybe</label>
+            <br>
+            <input type="radio" name="recommend" value="maybe"><label for="">Not Sure</label>  
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="improved" value="Front-End-Projects"><label for="">Front-End-Projects</label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Back End Projects</label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Data Visualization</label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Challenges</label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Open Source Community</label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Gitter help rooms
+            </label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Videos
+            </label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">City Meetups
+            </label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Wiki
+            </label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Forum
+            </label>
+            <br>
+            <input type="checkbox" name="inproved" value="Back-End-Projects"><label for="">Additional Courses
+            </label>
+          </div>
+          <textarea name="suggestions" id="suggest" cols="30" rows="10"></textarea>
+          <button type="submit" id="submit" value="submit">submit</button>
+  
+        </form>
+      </section>
+    </div>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
